@@ -65,11 +65,7 @@
   }
 
   &__shadow {
-    background: linear-gradient(
-      180deg,
-      rgba($color-white, 0.1) 0.13%,
-      rgba($color-black, 0.1) 100%
-    );
+    background: $colour-black-step2;
     height: 5.625rem;
     width: 100%;
     position: absolute;

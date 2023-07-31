@@ -24,12 +24,12 @@ $colour-blue-step4: #3f25b2;
 $colour-blue-step5: #3f25b2;
 
 $colour-black-step1: #000000;
-$colour-black-step2: #0e0e0e;
+$colour-black-step2: #ffffff;
 $colour-black-step3: #212121;
 $colour-black-step4: #131313;
 $colour-black-step5: #1f1f1f;
 
-$color-yellow: #E6B86F;
+$color-yellow: #0C5092;
 $color-blood-orange: #e54c23;
 $color-shadow: rgba($color-black, 0.2);
 
@@ -54,7 +54,7 @@ $color-slot-text: $color-yellow;
 
 // settings
 $color-settings-mask: rgba($color-black, 0.6);
-$color-settings-background-red: $colour-black-step2;
+$color-settings-background-red: $colour-black-step4;
 $color-settings-background-purple: darken($color-purple-step6, 8%);
 
 // textarea

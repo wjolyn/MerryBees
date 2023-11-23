@@ -1,0 +1,1 @@
+copy background.svg ..\LuckyDraw\src\assets\images\

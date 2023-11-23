@@ -1,0 +1,1 @@
+copy title.svg ..\LuckyDraw\src\assets\images\

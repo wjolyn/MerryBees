@@ -29,12 +29,12 @@ $colour-black-step3: #212121;
 $colour-black-step4: #131313;
 $colour-black-step5: #1f1f1f;
 
-$color-yellow: #e4e427;
+$color-yellow: rgb(255, 1, 179);
 $color-blood-orange: #e54c23;
 $color-shadow: rgba($color-black, 0.2);
 
 // body
-$color-blue: #058DE1;
+$color-blue: #ffffff;
 $color-text-light: $color-white;
 $color-text-dark: $color-black;
 $color-link: rgba($color-white, 0.8);
@@ -51,7 +51,7 @@ $color-button-danger-hover-background: lighten($color-blood-orange, 5%);
 $color-slot-background: $color-yellow;
 $color-slot-shadow: $color-blue;
 $color-slot-inner-background: $colour-black-step2;
-$color-slot-text: $color-yellow;
+$color-slot-text: $color-white;
 
 // settings
 $color-settings-mask: rgba($color-black, 0.6);

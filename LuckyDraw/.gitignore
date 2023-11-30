@@ -12,3 +12,4 @@ bundle-analyzer-plugin-report.html
 
 /design/appicon-templates-assets
 node_modules/
+/package-lock.json

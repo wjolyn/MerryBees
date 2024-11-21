@@ -92,6 +92,7 @@
     line-height: $reel-item-height;
     color: $color-slot-text;
     text-overflow: ellipsis;
+    font-size: 55px;
     overflow: hidden;
     white-space: nowrap;
     /* enable gpu accelaration to fix iOS flicker issue */
@@ -190,8 +191,8 @@
   top: 50%;
   left: 50%;
   margin: -50vh 0 0 -50vw;
-  width: 100vw;
-  height: 100vh;
+  width: 0;
+  height: 0;
   display: none;
   z-index: $z-index-sunburst;
   pointer-events: none;

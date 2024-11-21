@@ -102,10 +102,12 @@
 
 #draw-button {
   width: $draw-button-width;
+  height: 5.5rem;
   max-width: 100%;
   margin: $draw-button-margin-top 0 0;
   position: relative;
   z-index: $z-index-draw-button; // make sure draw button on top of sunburst
+  font-size: 46px;
 
   @each $media-query, $factor in $scale-factors {
     @media #{$media-query} {

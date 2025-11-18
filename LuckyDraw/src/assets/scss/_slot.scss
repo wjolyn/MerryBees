@@ -6,7 +6,7 @@
 }
 
 .title {
-  height: auto;
+  height: 0;
   max-width: $title-width;
   width: 100%;
   margin: $title-margin-top 0 $title-margin-bottom 0;
@@ -57,7 +57,7 @@
   }
 
   &__shadow {
-    background: $colour-black-step2;
+    background: rgba($color-blue, 1.0);;
     height: 5.625rem;
     width: 100%;
     position: absolute;

@@ -6,6 +6,12 @@
   font-weight: bold;
 }
 
+@font-face {
+  font-family: 'INGMe';
+  src: url('../fonts/INGMe-Bold.ttf') format('truetype');
+  font-weight: bold;
+}
+
 
 *:not(input, textarea, select) {
   -webkit-user-select: none;
@@ -32,7 +38,7 @@ body {
   font-family: 'Nunito Sans', 微軟正黑體, 'Microsoft JhengHei',
     'Microsoft JhengHei UI', 'Microsoft YaHei', 'Microsoft YaHei UI',
     'PingFang TC', 'Lantinghei TC', 'Heiti TC', 'Apple LiGothic', 'PMingLiU',
-    Arial, 'INGDisplay', sans-serif;
+    Arial, 'INGDisplay','INGMe', sans-serif;
 }
 
 #app {

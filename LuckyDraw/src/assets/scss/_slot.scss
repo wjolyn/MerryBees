@@ -33,6 +33,7 @@
 
 .slot {
   position: relative;
+  font-family: 'MyCustomFont';
 
   &__outer {
     width: $slot-width;
@@ -83,6 +84,7 @@
 
 .reel {
   width: 100%;
+  font-family: 'INGDisplay';
 
   > div {
     height: $reel-item-height;
@@ -92,7 +94,7 @@
     line-height: $reel-item-height;
     color: $color-slot-text;
     text-overflow: ellipsis;
-    font-size: 55px;
+    font-size: 70px;
     overflow: hidden;
     white-space: nowrap;
     /* enable gpu accelaration to fix iOS flicker issue */
@@ -101,6 +103,8 @@
 }
 
 #draw-button {
+    font-family: 'INGDisplay';
+
   width: $draw-button-width;
   height: 5.5rem;
   max-width: 100%;
